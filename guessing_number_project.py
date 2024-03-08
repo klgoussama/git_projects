@@ -2,12 +2,12 @@
 import random
 import math
 
-# Taking Inputs pour la plage dans laquelle le nombre aléatoire sera généré. 
+# Taking Inputs for the range in which the random number will be generated 
 # Les entrées sont converties en entiers à l'aide de int()
 lower = int(input("Enter Lower bound:- "))
 upper = int(input("Enter Upper bound:- "))
  
-# generating random number between [lower, upper] en utilisant randit du module random
+# Generating random number between [lower, upper] using randit from random module
 x = random.randint(lower, upper)
 
 # The formula round(math.log(upper - lower + 1, 2)) to calculate the minimum number of guesses required based on the range
